@@ -13,9 +13,10 @@ keywords = ["Elan", "VAD", "Voice", "Audio", "Detection"]
 
 [tool.poetry.dependencies]
 python = "^3.9"
-silero = "^0.4.1"
 pympi-ling = "^1.70.2"
 numpy = "^1.23.1"
+torch = "^1.12.0"
+torchaudio = "^0.12.0"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"

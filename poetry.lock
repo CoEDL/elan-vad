@@ -1,12 +1,4 @@
 [[package]]
-name = "antlr4-python3-runtime"
-version = "4.9.3"
-description = "ANTLR 4.9.3 runtime for Python 3.7"
-category = "main"
-optional = false
-python-versions = "*"
-
-[[package]]
 name = "atomicwrites"
 version = "1.4.1"
 description = "Atomic file writes."
@@ -92,18 +84,6 @@ description = "NumPy is the fundamental package for array computing with Python.
 category = "main"
 optional = false
 python-versions = ">=3.8"
-
-[[package]]
-name = "omegaconf"
-version = "2.2.2"
-description = "A flexible configuration library"
-category = "main"
-optional = false
-python-versions = ">=3.6"
-
-[package.dependencies]
-antlr4-python3-runtime = ">=4.9.0,<4.10.0"
-PyYAML = ">=5.1.0"
 
 [[package]]
 name = "packaging"
@@ -200,27 +180,6 @@ checkqa-mypy = ["mypy (==v0.761)"]
 testing = ["argcomplete", "hypothesis (>=3.56)", "mock", "nose", "requests", "xmlschema"]
 
 [[package]]
-name = "pyyaml"
-version = "6.0"
-description = "YAML parser and emitter for Python"
-category = "main"
-optional = false
-python-versions = ">=3.6"
-
-[[package]]
-name = "silero"
-version = "0.4.1"
-description = "Silero Models: pre-trained enterprise-grade STT / TTS models and benchmarks."
-category = "main"
-optional = false
-python-versions = ">=3.7"
-
-[package.dependencies]
-omegaconf = ">=2.1.0"
-torch = ">=1.10.0"
-torchaudio = ">=0.10.0"
-
-[[package]]
 name = "tomli"
 version = "2.0.1"
 description = "A lil' TOML parser"
@@ -269,10 +228,9 @@ python-versions = "*"
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.9"
-content-hash = "47f2cdd10b1308da10200df35a705d0b25159326a1582eab735d5508afc902cf"
+content-hash = "dd838db921c01c5e496fa0df5f9d48e951148f35539b0c9c7bd80ce374f46799"
 
 [metadata.files]
-antlr4-python3-runtime = []
 atomicwrites = []
 attrs = []
 black = []
@@ -281,7 +239,6 @@ colorama = []
 more-itertools = []
 mypy-extensions = []
 numpy = []
-omegaconf = []
 packaging = []
 pathspec = []
 platformdirs = []
@@ -293,8 +250,6 @@ pyparsing = [
     {file = "pyparsing-3.0.9.tar.gz", hash = "sha256:2b020ecf7d21b687f219b71ecad3631f644a47f01403fa1d1036b0c6416d70fb"},
 ]
 pytest = []
-pyyaml = []
-silero = []
 tomli = []
 torch = []
 torchaudio = []
