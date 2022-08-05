@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "elan-vad"
-version = "0.1.0"
+version = "0.2.0"
 description = """\
   A utility library to perform Voice Audio Detection on .wav files, write \
   these sections to an elan file, and optionally cluster annotations on a \
