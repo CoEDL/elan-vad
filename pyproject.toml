@@ -6,6 +6,8 @@ description = """\
   these sections to an elan file, and optionally cluster annotations on a \
   given tier based on the VAD sections.\
   """
+readme = "README.md"
+repository = "https://github.com/CoEDL/elan-vad"
 authors = ["Harry Keightley <harrykeightley@outlook.com>"]
 
 [tool.poetry.dependencies]
