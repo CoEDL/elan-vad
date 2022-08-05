@@ -9,6 +9,7 @@ description = """\
 readme = "README.md"
 repository = "https://github.com/CoEDL/elan-vad"
 authors = ["Harry Keightley <harrykeightley@outlook.com>"]
+keywords = ["Elan", "VAD", "Voice", "Audio", "Detection"]
 
 [tool.poetry.dependencies]
 python = "^3.9"
