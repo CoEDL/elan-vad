@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "elan-vad"
+version = "0.1.0"
+description = """\
+  A utility library to perform Voice Audio Detection on .wav files, write \
+  these sections to an elan file, and optionally cluster annotations on a \
+  given tier based on the VAD sections.\
+  """
+authors = ["Harry Keightley <harrykeightley@outlook.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+silero = "^0.4.1"
+pympi-ling = "^1.70.2"
+numpy = "^1.23.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+black = "^22.6.0"
+
+[tool.poetry.scripts]
+vad = "elan_vad.cli:vad"
+cluster = "elan_vad.cli:cluster"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
